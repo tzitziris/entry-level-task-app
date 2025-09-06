@@ -1,5 +1,3 @@
-# Backend
-
 - Java 21
 - Spring Boot
 - Spring Web
@@ -24,8 +22,9 @@
 ```
 
 Πως συνδέομαι στην βάση, path http://localhost:8080/h2-console/ :
-image.png
+![img_1.png](img_1.png)
 
 Δεδομένα στην βάση:
 
-image.png
+![img.png](img.png)
+
