@@ -1,2 +1,31 @@
-# entry-level-task-app
-The goal is to create a simple task management application using React for the front-end and Java (Spring Boot) for the back-end. The application should allow users to create and view tasks.
+# Backend
+
+- Java 21
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2 Database
+
+
+## Endpoints
+
+| Μέθοδος | URL        | Περιγραφή               |
+|--------|------------|-------------------------|
+| GET    | `http://localhost:8080/tasks`   | Επιστρέφει όλα τα tasks |
+| POST   | `http://localhost:8080/tasks`   | Δημιουργεί νέο task     |
+
+###  Παράδειγμα JSON για POST
+
+```json
+{
+  "title": "Ολοκλήρωση παρουσίασης",
+  "description": "Ετοιμασία των slides για το meeting της Δευτέρας"
+}
+```
+
+Πως συνδέομαι στην βάση, path http://localhost:8080/h2-console/ :
+image.png
+
+Δεδομένα στην βάση:
+
+image.png
