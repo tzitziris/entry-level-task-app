@@ -25,5 +25,6 @@
 ![img_1.png](img_1.png)
 
 Δεδομένα στην βάση:
+
 ![img.png](img.png)
 
