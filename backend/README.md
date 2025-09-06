@@ -12,6 +12,12 @@
 | GET    | `http://localhost:8080/tasks`   | Επιστρέφει όλα τα tasks |
 | POST   | `http://localhost:8080/tasks`   | Δημιουργεί νέο task     |
 
+## Packages
+- Controller
+- Model
+- Repository
+- Service
+
 ###  Παράδειγμα JSON για POST
 
 ```json
