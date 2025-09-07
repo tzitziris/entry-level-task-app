@@ -1,6 +1,7 @@
 package com.example.taskmanager.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "tasks")
@@ -12,6 +13,7 @@ public class Task {
     private Long id;
 
     @Column(name = "title", nullable = false)
+    @NotBlank(message = "Title is mandatory")
     private String title;
 
     @Column(name = "description", columnDefinition = "TEXT")
