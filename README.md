@@ -13,6 +13,8 @@ The frontend enables users to:
 - Create new tasks (title and description)
 - View a list of existing tasks
 
+![img_2.png](img_2.png)
+
 It uses React 18 with Vite. Data is fetched via the native `fetch` API, handling loading and error states. Styling lives in `frontend/src/App.css` and `frontend/src/index.css`.
 
 ### Setup instructions
