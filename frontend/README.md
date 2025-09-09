@@ -6,6 +6,7 @@ This is the frontend of a simple Task Manager application built with React and V
 - View a list of existing tasks
 
 ![img.png](img.png)
+![img_2.png](img_2.png)
 
 The app communicates with a backend API (Spring Boot) over HTTP. By default, it expects the backend to be available at `http://localhost:8080` and expose a `GET /tasks` endpoint to retrieve tasks and a `POST /tasks` endpoint to create new ones.
 
