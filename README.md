@@ -9,14 +9,35 @@ The application allows users to create and view tasks. The frontend communicates
 ## Frontend (React + Vite)
 
 ### Project overview
-The frontend enables users to:
+The frontend provides a comprehensive task management interface with advanced features:
 - Create new tasks (title and description)
-- View a list of existing tasks
+- View paginated list of existing tasks (10 per page)
+- Real-time task counter and navigation
+- Responsive error handling and loading states
 
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
 
-It uses React 18 with Vite. Data is fetched via the native `fetch` API, handling loading and error states. Styling lives in `frontend/src/App.css` and `frontend/src/index.css`.
+**Technical Implementation:**
+- **Tech Stack**: React 18, Vite 5, modern ES modules
+- **State Management**: React hooks (`useState`, `useEffect`, `useMemo`) for optimized state handling
+- **Data Fetching**: Native `fetch` API with comprehensive error handling
+- **Performance**: Client-side pagination with `useMemo` optimization
+- **UX Features**: Loading states, error boundaries, form validation, optimistic updates
+
+**Key Components:**
+- **`App.jsx`**: Global state management, API integration, optimistic updates
+- **`TaskForm.jsx`**: Form handling with validation and error feedback
+- **`TaskList.jsx`**: Advanced pagination system with smart state management
+
+**React Patterns Used:**
+- Functional components with hooks
+- Memoization for performance optimization
+- Controlled components and proper event handling
+- Multiple UI states (loading, error, empty, populated)
+- Component communication via props and callbacks
+
+Styling lives in `frontend/src/App.css` and `frontend/src/index.css`.
 
 ### Setup instructions
 
